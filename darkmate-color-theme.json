@@ -1,0 +1,93 @@
+{
+  "name": "Dark Mate",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#232323",
+    "editor.foreground": "#FFFFFF",
+    "editorLineNumber.foreground": "#5A5A5A",
+    "editorLineNumber.activeForeground": "#FFFFFF",
+    "editorCursor.foreground": "#FFFFFF",
+    "editor.selectionBackground": "#555753",
+    "editor.inactiveSelectionBackground": "#888888",
+    "editor.selectionHighlightBackground": "#FFFF00",
+    "editor.wordHighlightBackground": "#575757",
+    "editor.wordHighlightStrongBackground": "#00FF00",
+    "editor.findMatchBackground": "#FFCC00",
+    "editor.hoverHighlightBackground": "#000000",
+    "editor.lineHighlightBackground": "#232323",
+    "editorBracketMatch.background": "#6A0DAD",
+    "editorBracketMatch.border": "#FFFFFF",
+    "editorIndentGuide.background": "#555753",
+    "editorError.foreground": "#FF2F6A",
+    "editorWarning.foreground": "#FF9900",
+    "editorInfo.foreground": "#FFFFFF",
+    "editorGutter.background": "#232323",
+    "editorGutter.modifiedBackground": "#00C900",
+    "editorGutter.addedBackground": "#96FF00",
+    "editorGutter.deletedBackground": "#FF2F6A",
+    "editorGutter.commentRangeForeground": "#BB66FF"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#BB66FF"
+      }
+    },
+    {
+      "scope": ["string", "punctuation.definition.string"],
+      "settings": {
+        "foreground": "#96FF00"
+      }
+    },
+    {
+      "scope": ["variable", "variable.other", "variable.parameter", "variable.function"],
+      "settings": {
+        "foreground": "#00C900"
+      }
+    },
+    {
+      "scope": ["keyword", "keyword.control", "keyword.operator", "keyword.other"],
+      "settings": {
+        "foreground": "#FF9900"
+      }
+    },
+    {
+      "scope": ["storage", "storage.type"],
+      "settings": {
+        "foreground": "#FF9900"
+      }
+    },
+    {
+      "scope": ["constant", "constant.other"],
+      "settings": {
+        "foreground": "#FCE94F"
+      }
+    },
+    {
+      "scope": ["support", "support.function", "support.variable", "support.class"],
+      "settings": {
+        "foreground": "#9E91FF"
+      }
+    },
+    {
+      "scope": ["meta", "meta.tag"],
+      "settings": {
+        "foreground": "#009CFF"
+      }
+    },
+    {
+      "scope": ["punctuation"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#FF2F6A"
+      }
+    }
+    // Add more token colors as needed
+  ]
+}

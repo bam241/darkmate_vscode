@@ -1,0 +1,149 @@
+{
+	"name": "DarkMate",
+	"type": "dark",
+	"colors": {
+	  "editor.background": "#2C2C2C",
+	  "editor.foreground": "#FFFFFF",
+	  "editorLineNumber.foreground": "#4D4D4D",
+	  "editorLineNumber.activeForeground": "#FFFFFF",
+	  "editorCursor.foreground": "#A7A7A7",
+	  "editor.selectionBackground": "#264F78",
+	  "editor.inactiveSelectionBackground": "#3A3D41",
+	  "editor.selectionHighlightBackground": "#ADD6FF33",
+	  "editor.wordHighlightBackground": "#575757",
+	  "editor.wordHighlightStrongBackground": "#004080",
+	  "editor.findMatchBackground": "#D8BFD8",
+	  "editor.findMatchHighlightBackground": "#A0A0A0",
+	  "editor.hoverHighlightBackground": "#264F78",
+	  "editor.lineHighlightBackground": "#404040",
+	  "editorLink.activeForeground": "#4E94CE",
+	  "editorBracketMatch.background": "#006400",
+	  "editorBracketMatch.border": "#888888",
+	  "editorIndentGuide.background": "#585858",
+	  "editorRuler.foreground": "#5A5A5A",
+	  "editorCodeLens.foreground": "#999999",
+	  "editorLightBulb.foreground": "#FFCC00",
+	  "editorLightBulbAutoFix.foreground": "#75BEFF",
+	  "editorOverviewRuler.border": "#404040",
+	  "editorOverviewRuler.findMatchForeground": "#D8BFD8",
+	  "editorOverviewRuler.rangeHighlightForeground": "#007ACC",
+	  "editorOverviewRuler.selectionHighlightForeground": "#ADD6FF",
+	  "editorOverviewRuler.wordHighlightForeground": "#575757",
+	  "editorOverviewRuler.wordHighlightStrongForeground": "#004080",
+	  "editorError.foreground": "#F44747",
+	  "editorWarning.foreground": "#FFD700",
+	  "editorInfo.foreground": "#75BEFF",
+	  "editorHint.foreground": "#75BEFF",
+	  "editorWhitespace.foreground": "#BFBFBF",
+	  "editorGutter.background": "#2C2C2C",
+	  "editorGutter.modifiedBackground": "#006400",
+	  "editorGutter.addedBackground": "#00A86B",
+	  "editorGutter.deletedBackground": "#FF3333",
+	  "editorGutter.commentRangeForeground": "#4E94CE",
+	  "editorOverviewRuler.border": "#2C2C2C",
+	  "editorOverviewRuler.findMatchForeground": "#D8BFD8",
+	  "editorOverviewRuler.rangeHighlightForeground": "#007ACC",
+	  "editorOverviewRuler.selectionHighlightForeground": "#ADD6FF",
+	  "editorOverviewRuler.wordHighlightForeground": "#575757",
+	  "editorOverviewRuler.wordHighlightStrongForeground": "#004080"
+	},
+	"tokenColors": [
+	  {
+		"scope": ["comment", "punctuation.definition.comment"],
+		"settings": {
+		  "foreground": "#5C6370"
+		}
+	  },
+	  {
+		"scope": ["string", "punctuation.definition.string"],
+		"settings": {
+		  "foreground": "#CE9178"
+		}
+	  },
+	  {
+		"scope": ["variable", "variable.other", "variable.parameter", "variable.function"],
+		"settings": {
+		  "foreground": "#9CDCFE"
+		}
+	  },
+	  {
+		"scope": ["entity.name.class", "entity.name.type.class"],
+		"settings": {
+		  "foreground": "#4EC9B0"
+		}
+	  },
+	  {
+		"scope": ["keyword", "keyword.control", "keyword.operator", "keyword.other"],
+		"settings": {
+		  "foreground": "#C586C0"
+		}
+	  },
+	  {
+		"scope": ["storage", "storage.type"],
+		"settings": {
+		  "foreground": "#C586C0"
+		}
+	  },
+	  {
+		"scope": ["constant", "constant.other"],
+		"settings": {
+		  "foreground": "#D4D4D4"
+		}
+	  },
+	  {
+		"scope": ["support", "support.function", "support.variable", "support.class"],
+		"settings": {
+		  "foreground": "#9CDCFE"
+		}
+	  },
+	  {
+		"scope": ["meta", "meta.tag"],
+		"settings": {
+		  "foreground": "#5C6370"
+		}
+	  },
+	  {
+		"scope": ["punctuation"],
+		"settings": {
+		  "foreground": "#D4D4D4"
+		}
+	  },
+	  {
+		"scope": ["invalid", "invalid.illegal"],
+		"settings": {
+		  "foreground": "#F44747"
+		}
+	  },
+	  {
+		"scope": ["emphasis", "italic"],
+		"settings": {
+		  "fontStyle": "italic"
+		}
+	  },
+	  {
+		"scope": ["strong", "bold"],
+		"settings": {
+		  "fontStyle": "bold"
+		}
+	  },
+	  {
+		"scope": ["variable"],
+		"settings": {
+		  "fontStyle": "italic"
+		}
+	  },
+	  {
+		"scope": ["keyword", "keyword.control"],
+		"settings": {
+		  "fontStyle": "bold"
+		}
+	  },
+	  {
+		"scope": ["comment"],
+		"settings": {
+		  "foreground": "#5C6370",
+		  "fontStyle": "italic"
+		}
+	  }
+	]
+  }
